@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework01</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Angkor&family=Battambang:wght@100;300;400;700;900&family=Bokor&family=Koulen&family=Moulpali&family=Odor+Mean+Chey&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="homepage">
+        <div class="title">
+            <h1>ម៉ូតកាតាបពេញនិយម</h1>
+        </div>
+        <div class="items">
+            <div class="box-item">
+                <img src="img/pic1.jpg" id="pic1" onclick="photo1()">
+            </div>
+            <div class="box-item">
+                <img src="img/pic2.jpg" id="pic2" onclick="photo2()">
+            </div>
+            <div class="box-item">
+                <img src="img/pic3.jpg" id="pic3" onclick="photo3()">
+            </div>
+            <div class="box-item">
+                <img src="img/pic4.jpg" id="pic4" onclick="photo4()">
+            </div>
+        </div>
+        <div class="show-item">
+           <div class="box-show-item">
+                <img src="img/pic1.jpg" id="show">
+           </div>
+        </div>
+    </div>
+</body>
+<script>
+    function photo1(){
+        document.getElementById("show").setAttribute('src','img/pic1.jpg'); 
+    }
+    function photo2(){
+        document.getElementById("show").setAttribute('src','img/pic2.jpg'); 
+    }
+    function photo3(){
+        document.getElementById("show").setAttribute('src','img/pic3.jpg'); 
+    }
+    function photo4(){
+        document.getElementById("show").setAttribute('src','img/pic4.jpg'); 
+    }
+</script>
+</html>
